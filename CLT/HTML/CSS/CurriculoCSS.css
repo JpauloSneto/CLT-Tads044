@@ -1,0 +1,44 @@
+:root{
+    --cor1: #211C84;
+    --cor2: #4D55CC;
+    --cor3: #7A73D1;
+    --cor4: #B5A8D5;
+    --cor5: #000000;
+    --cor6: rgb(231, 229, 229);
+
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom right, var(--cor1), var(--cor2), var(--cor3)) ;
+    color: var(--cor6);
+    margin: 0% 4rem; 
+}
+
+.centralizar{
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--cor6);
+}
+a:link, a:visited{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color:var(--cor4);
+    font-size: 125%;
+}
+a:active{
+    text-decoration: none;
+    font-size: 125%;
+}
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--cor6);
+}
