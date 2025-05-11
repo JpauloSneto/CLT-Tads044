@@ -121,6 +121,73 @@
 </center>
     <hr>
 
+    <form>
+    <h2>Formulário de Freelancer</h2>
+
+    <label class="required">Nome</label>
+    <input type="text" placeholder="Insira seu nome" required>
+
+    <label class="required">Sobrenome</label>
+    <input type="text" placeholder="Insira seu sobrenome" required>
+
+    <label class="required">Telefone</label>
+    <input type="tel" placeholder="(99)99999-9999" required>
+
+    <label class="required">E-mail</label>
+    <input type="email" placeholder="Insira seu e-mail" required>
+
+    <label class="required">Mensagem</label>
+    <textarea placeholder="Informe o que deseja." required></textarea>
+
+    <label>Língua</label>
+    <select>
+      <option>Português (pt-br)</option>
+      <option>Inglês (en)</option>
+      <option>Espanhol (es)</option>
+    </select>
+
+    <label>Protótipo (Requisitos)</label>
+    <input type="file">
+
+    <label>As linguagens que você prefere?</label>
+    <select multiple class="linguagens">
+      <option>Java</option>
+      <option>C</option>
+      <option>C++</option>
+      <option>PHP</option>
+    </select>
+    <span class="info">(Para fazer várias escolhas, mantenha a tecla CTRL pressionada)</span>
+
+    <label>Banco de Dados</label>
+    <div class="radio-group">
+      <input type="radio" name="bd" checked> MySQL
+      <input type="radio" name="bd"> PostgreSQL
+      <input type="radio" name="bd"> MongoDB
+      <input type="radio" name="bd"> N/A
+      <input type="radio" name="bd"> Outra
+    </div>
+
+    <label class="required">Turno para Reuniões</label>
+    <div class="checkbox-group">
+      <input type="checkbox"> Manhã
+      <input type="checkbox"> Tarde
+      <input type="checkbox"> Noite
+    </div>
+
+    <label>Horário Sugerido</label>
+    <input type="time">
+
+    <label class="required">Data Prevista Entrega</label>
+    <input type="date">
+
+    <div class="botoes">
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </div>
+
+    <div class="obrigatorio">* Campos Obrigatórios</div>
+  </form>
+
 <footer>
     <center>
     <strong><p>&copy; 2025 José Paulo. Todos os direitos reservados.
